@@ -137,7 +137,7 @@ class ErrorDisfluencyFeatures:
                 alignment[1][idx] = self.eds[idx] 
                 alignment[2][idx] = '*'
                 word_lens.append(len(self.script[script_idx]))
-                trans_idx += 1 
+                script_idx += 1 
         
         # convert alignment to string 
         # pad each word on both sizes with ' ' so words line up 
